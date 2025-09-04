@@ -17,6 +17,30 @@ Propósito de Aprendizaje 2: Desarrollar componentes y funcionalidades de una ap
 1.-Diseño e implementación del frontend  
 Maquetación/Wireframe/Mockup  
 API  
+**Maquetación:**  
+  Es el proceso de estructurar visualmente la información y los elementos de la interfaz en una página web. Se suele hacer usando HTML y CSS, y define la disposición de menús, botones, formularios, imágenes, etc.  
+  - Herramientas comunes: HTML, CSS (Flexbox, Grid), Bootstrap, Tailwind.  
+
+- **Wireframe:**  
+  Esquema básico (boceto) que representa la estructura de las páginas antes del diseño final. Se centra en la funcionalidad y organización, no en los colores ni estilos.  
+  - Herramientas: Figma, Balsamiq, Adobe XD, papel y lápiz.  
+  - Utilidad: Facilita la comunicación entre desarrolladores y diseñadores, permite definir y validar la experiencia de usuario (UX).  
+
+- **Mockup:**   
+  Representación visual más detallada del producto final. Incluye estilos, colores, tipografía y elementos gráficos, mostrando cómo se verá antes de codificarlo.  
+  - Herramientas: Figma, Adobe XD, Sketch, Photoshop.  
+  - Utilidad: Permite validar el aspecto visual y realizar ajustes antes de la implementación.  
+
+---
+
+### API  
+
+- **Definición:**  
+  Una API (Interfaz de Programación de Aplicaciones) conecta el frontend con el backend, permitiendo que la web obtenga y envíe datos dinámicamente.  
+  - Tipos comunes: RESTful APIs (JSON), GraphQL.  
+  - Métodos HTTP: GET (consultar datos), POST (crear), PUT/PATCH (actualizar), DELETE (eliminar).  
+  - Buenas prácticas: Validar datos, gestionar errores, proteger con autenticación (tokens).  
+  - 
 2.-Diseño e implementación del backend  
 Servidor  
 Manejo de peticiones y respuestas HTTP  
