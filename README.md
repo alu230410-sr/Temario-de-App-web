@@ -44,7 +44,18 @@ API
 2.-Diseño e implementación del backend  
 Servidor  
 Manejo de peticiones y respuestas HTTP  
-Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)  
+Conexión a bases de datos (MySQL, PostgreSQL, MongoDB)
+**Servidor:**    
+  El servidor es el componente encargado de recibir las peticiones del cliente (navegador o app) y devolver respuestas, como páginas web, archivos o datos. Puede estar desarrollado en distintos lenguajes (Node.js, PHP, Python, Java, etc.). Se encarga de la lógica del negocio y gestiona la comunicación con la base de datos y otros servicios.  
+
+- **Manejo de peticiones y respuestas HTTP:**  
+  El backend recibe solicitudes (requests) a través del protocolo HTTP y responde con datos, páginas o mensajes. Cada petición tiene un método (GET, POST, PUT, DELETE) y puede incluir parámetros, cabeceras y cuerpo. El servidor procesa la petición, realiza las acciones necesarias (consultar datos, guardar información, etc.) y envía una respuesta (response) con el código de estado (200 OK, 404 Not Found, 500 Error), datos o mensajes.  
+
+- **Conexión a bases de datos (MySQL, PostgreSQL, MongoDB):**    
+  El backend se conecta a bases de datos para almacenar y recuperar información.  
+  - **MySQL** y **PostgreSQL** son bases de datos relacionales: almacenan datos en tablas con relaciones entre ellas. Se usan consultas SQL para interactuar con los datos.  
+  - **MongoDB** es una base de datos NoSQL: almacena datos en documentos tipo JSON, permitiendo mayor flexibilidad y escalabilidad.    
+  El backend utiliza librerías o frameworks para establecer la conexión, realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) y asegurar la consistencia y seguridad de los datos.   
 3.-Bases de datos  
  Modelado de datos y relaciones  
 ORM (Object Relational Mapping)  
